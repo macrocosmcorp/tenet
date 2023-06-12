@@ -8,6 +8,64 @@ Some of these chunking algorithms don't have the right format: they should accep
 
 # Status
 
-- Book Of Mormon (done)
-- Quran (done)
-- King James Bible (done)
+- Taoism
+
+  - Tao Te Ching
+  - Zhuangzi
+  - Daozang
+
+- Judaism
+
+  - Nevi'im
+  - Ketuvim
+
+- Buddhism
+
+  - Triptaka
+  - Mahayana Sutras
+
+- Hinduism
+
+  - The Vedas
+  - Bhagavad Gita (done)
+
+- Islam
+
+  - Quran (done)
+  - Hadith
+  - Tafsir
+
+- Christianity
+
+  - King James Bible (done)
+  - Apocrypha
+  - Deuterocanonical books
+  - The Book of Mormon (done)
+
+- Confucianism
+
+  - Five Classics
+    - Classic of Poetry
+    - Book of Rites
+    - Book of Documents
+    - Book of Changes
+    - Spring and Autumn Annals
+  - Four Books
+    - Great Learning
+    - Doctrine of the Mean
+    - Analects (done)
+    - Mencius
+
+- Bahai Faith
+
+  - Kitáb-i-Aqdas
+  - Kitáb-i-Íqán
+  - Some Answered Questions
+  - The Dawn-Breakers.
+
+- Jainism
+
+  - Agamas
+
+- Modern Philosophy
+  - Coming Soon

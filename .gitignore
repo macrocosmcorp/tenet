@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.parquet
 
+package.json
+package-lock.json
+
 # C extensions
 *.so
 

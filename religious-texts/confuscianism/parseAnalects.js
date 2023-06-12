@@ -50,6 +50,7 @@ function parseParagraphs() {
   csvStream.pipe(ws).on('end', () => console.log('CSV file successfully written'));
 
   for(let row of csv) {
+    if (!row[3]) continue
     csvStream.write(row)
   }
   csvStream.end();
@@ -104,6 +105,7 @@ function parseParagraphChunks() {
   csvStream.pipe(ws).on('end', () => console.log('CSV file successfully written'));
 
   for(let row of csv) {
+    if (!row[3]) continue
     csvStream.write(row)
   }
   csvStream.end();

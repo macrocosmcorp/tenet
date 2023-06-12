@@ -92,20 +92,20 @@ def embed_file(csv_file_name, csv_file_path, csv_directory):
 
 
 if __name__ == "__main__":
-    file_directory = 'religious-texts/islam'
-    file_name = 'quran_chunks.parquet'
+    file_directory = 'religious-texts/hinduism'
+    file_name = 'bhagavad_gita_versesChunks.csv'
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_directory, file_name)
     print("Running for file path: ", file_path)
 
-    table = pq.read_table(file_path)
-    df = table.to_pandas()
-    # Remove 'Section' suffix from section names
-    df['Section'] = df['Section'].str.replace(
-        'SECTION', 'S')
-    df['ID'] = df['Sura'] + ' ' + df['Section'] + ' ' + df['ParagraphRange']
-    df['Section'] = df['Sura'] + ' ' + df['Section']
-    load_atlas(file_name.removesuffix('.parquet'), df, ['Sura', 'Section'])
+    # table = pq.read_table(file_path)
+    # df = table.to_pandas()
+    # # Remove 'Section' suffix from section names
+    # df['Section'] = df['Section'].str.replace(
+    #     'SECTION', 'S')
+    # df['ID'] = df['Sura'] + ' ' + df['Section'] + ' ' + df['ParagraphRange']
+    # df['Section'] = df['Sura'] + ' ' + df['Section']
+    # load_atlas(file_name.removesuffix('.parquet'), df, ['Sura', 'Section'])
 
-    # embed_file(file_name, file_path, file_directory)
+    embed_file(file_name, file_path, file_directory)
