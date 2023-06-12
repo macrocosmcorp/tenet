@@ -1,0 +1,1 @@
+Hey, I cut the Bhagavad-Gita:Maitrayana-Brahmana-Upanishad and the Bhagavad-Gita:Vagasaneyi-Samhita-Upanishad from the Bhagavad Gita because they didn't follow the same formatting as the rest of the Upanishads. It's cool, we'll just have to write separate parsing / embedding algo for them.
