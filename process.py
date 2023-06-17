@@ -23,14 +23,14 @@ def get_embedding(text: str, model="text-embedding-ada-002") -> list[float]:
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def get_summary(text: str) -> str:
-    result = openai.ChatCompletion.create(
+    return openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[{"role": "system", "content": "You are a Bible expert. You are great at writing children's books and stories and explaining complex information well and in a careful manner. Below is a certain chapter from the Bible. Rewrite the text and make it simpler it in a way that a child would understand, without losing information or changing the meaning of the text. Try as much as you can to keep the structure and length of each chapter. Don't start each summary with any unique phrase as each summary will be connected to each other (for example, 'Once upon a time' or 'Genesis Chapter 1:'). Return only the inline simplified text."}, {"role": "user", "content": text}],
-    )
-    total_cost += 0.0000015 * result['usage']['prompt_tokens']
-    total_cost += 0.000002 * result['usage']['completion_tokens']
+    )["choices"][0]["message"]['content']
+    # total_cost += 0.0000015 * result['usage']['prompt_tokens']
+    # total_cost += 0.000002 * result['usage']['completion_tokens']
     
-    return result["choices"][0]["message"]['content']
+    # return result["choices"][0]["message"]['content']
 
 
 def load_atlas(project_name, df, colorable_fields, reset_project_if_exists=False):
@@ -82,7 +82,7 @@ def embed_file(csv_file_name, csv_file_path, csv_directory):
 
     # Get the embedding for each verse
     embeddings = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_to_embedding = {executor.submit(
             get_embedding, verse['Text']): verse for verse in result}
         for future in concurrent.futures.as_completed(future_to_embedding):
@@ -115,7 +115,7 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
 
     # Get the embedding for each verse
     results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         future_to_embedding = {executor.submit(
             get_summary, verse["Book"] + ' Chapter ' + verse['Chapter'] + ': ' + verse['Text']): verse for verse in result}
         for future in concurrent.futures.as_completed(future_to_embedding):
@@ -145,7 +145,7 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
     
 if __name__ == "__main__":
     file_directory = 'religious-texts/christianity'
-    file_name = 'christianity_kjv_chapters.csv'
+    file_name = 'christianity_apodat_verses.csv'
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_directory, file_name)
@@ -154,7 +154,7 @@ if __name__ == "__main__":
     # table = pq.read_table(file_path)
     # df = table.to_pandas()
 
-    summarize_file(file_name, file_path, file_directory)
+    # summarize_file(file_name, file_path, file_directory)
 
     # df['Source'] = 'Kitab'
     # df['ID'] = df['Source'] + ' ' + df.index.astype(str)
@@ -166,9 +166,9 @@ if __name__ == "__main__":
 
     # load_atlas('all_islam', df, ['ColorableBook', 'ColorableChapter', 'Source'], True)
 
-    # embed_file(file_name, file_path, file_directory)
+    embed_file(file_name, file_path, file_directory)
 
-    print('Total cost:', total_cost)
+    # print('Total cost:', total_cost)
 
 
 

@@ -48,6 +48,9 @@ def split_by_verse(filename):
     if cached_verse != "":
         verses.append(
             [current_book, cached_chapter_num, cached_verse_num, cached_verse])
+        
+    # for verse in verses:
+    #     verse[3] = '"' + verse[3] + '"'
 
     return verses
 
@@ -73,6 +76,9 @@ def split_by_chapter(verses):
         chapter.append(text)
 
     chapters.append([book, chapter_num, ' '.join(chapter)])
+
+    for chapter in chapters:
+        chapter[2] = '"' + chapter[2] + '"'
 
     return chapters
 
@@ -109,6 +115,9 @@ def split_by_chunk(verses, chunk_size, overlap_size, align_to_book=True, align_t
                 chunk = chapter[i:i + chunk_size]
                 chunks.append([chunk[0][0], chunk[0][1], f'{chunk[0][2]}-{chunk[-1][2]}', ' '.join(
                     [verse[3] for verse in chunk])])
+                
+    for chunk in chunks:
+        chunk[3] = '"' + chunk[3] + '"'
 
     return chunks
 
@@ -131,6 +140,9 @@ id_flag = religion_name + '_' + book_name
 verses = split_by_verse(file_path)
 chapters = split_by_chapter(verses)
 chunks = split_by_chunk(verses, 6, 2)
+
+for verse in verses:
+    verse[3] = '"' + verse[3] + '"'
 
 # Write to temp csv files
 verses_csv_path = os.path.join(output_directory, f'{id_flag}_verses.csv')
