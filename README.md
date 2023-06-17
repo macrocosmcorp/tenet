@@ -1,6 +1,8 @@
 # project-tenet
 
-Project Tenet is a community initiative to embed all of human belief. If you're interested in contributing, read more below and make sure to visit https://alex.macrocosm.so/religion to see the status of current texts.
+Project Tenet is a community initiative to embed all of human belief. If you're interested in contributing, read more below and make sure to visit https://alex.macrocosm.so/religion to see the status of current texts.  
+
+Make sure to join the community discord! https://discord.com/invite/zWa4Ay5MPb
 
 ### Splitting / Chunking
 
