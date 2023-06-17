@@ -145,7 +145,7 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
     
 if __name__ == "__main__":
     file_directory = 'religious-texts/christianity'
-    file_name = 'christianity_apodat_verses.csv'
+    file_name = 'christianity_deut_verses.csv'
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_directory, file_name)

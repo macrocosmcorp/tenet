@@ -1,5 +1,5 @@
-import re
 import csv
+import re
 
 input_file = 'CLEAN_The-Complete-Hadith.txt'
 output_file = 'hadith.csv'
@@ -23,7 +23,8 @@ for block in text_blocks:
     
     volume_number = re.search(r"Volume (\d+)", header).group(1)
     book_number = re.search(r"Book (\d+)", header).group(1)
-    narration_number = re.search(r"Number (\d+)", header).group(1)
+    # narration_number = re.search(r"Number (\d+)", header).group(1) # make this account for things like 532c
+    narration_number = header.split('Number ')[-1].split(':')[0]
         
     while books and int(book_number) >= int(books[0].split('.')[0]):
         current_book = "BOOK " + books.pop(0)
@@ -34,7 +35,7 @@ for block in text_blocks:
     if len(narration_text.split()) > max_words:
         max_words = len(narration_text.split())
     
-    entries.append([volume_number, current_book, narration_number, narrator, narration_text])
+    entries.append([volume_number, current_book, narration_number, narrator, narration_text.replace('\n', ' ')])
 
 print('Max words:', max_words)
 # Max words: 3136
