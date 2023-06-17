@@ -3134,7 +3134,7 @@ Narrated Maimuna:
 on the mat beside the mosque of Allah's Apostle. He used to offer the
 prayer on his sheet and in prostration some of his clothes used to touch
 me."
-BOOK 7. RUBBING HANDS AND FEET WITH DUST (TAYAMMUM) (330344)
+BOOK 7. RUBBING HANDS AND FEET WITH DUST (TAYAMMUM) (330-344)
 Volume 1, Book 7, Number 330:
 Narrated 'Aisha:
 (the wife of the Prophet) We set out with Allahs Apostle on one of his
@@ -3528,7 +3528,7 @@ not find a sandal to wear can wear Khuffs, but these should be cut short so
 as not to cover the ankles.
 
 Volume 1, Book 8, Number 363:
-Narrated Abu Said Al-Khudri
+Narrated Abu Said Al-Khudri:
 Allah's Apostle forbade Ishtimal-As-Samma' (wrapping one's body with a
 garment so that one cannot raise its end or take one's hand out of it). He
 also forbade Al-Ihtiba' (sitting on buttocks with knees close to abdomen and
@@ -3669,7 +3669,7 @@ that you will not go to your wives for one month." He said, "The month is 29
 days."
 
 Volume 1, Book 8, Number 376:
-Narrates 'Abdullah bin Shaddad:
+Narrated 'Abdullah bin Shaddad:
 Maimuna said, "Allah's Apostle was praying while I was in my menses, sitting
 beside him and sometimes his clothes would touch me during his
 prostration." Maimuna added, "He prayed on a Khumra (a small mat
@@ -4221,7 +4221,7 @@ thought that 'Asim, another subnarrator, added, "Intending Allah's
 Pleasure"), Allah would build for him a similar place in Paradise.' "
 
 Volume 1, Book 8, Number 442:
-Narrated 'Amr
+Narrated 'Amr:
 I heard Jabir bin 'Abdullah saying, "A man passed through the mosque
 carrying arrows. Allah's Apostle said to him, 'Hold them by their heads.' "
 
@@ -4501,8 +4501,7 @@ Volume 1, Book 8, Number 471:
 Narrated Hadith is about the various places on the way from Medina to
 Mecca where the Prophet prayed and their In locations impossible to
 translate.
-BOOK 9. VIRTUES OF THE PRAYER HALL (SUTRA OF THE MUSALLA)
-(472-499)
+BOOK 9. VIRTUES OF THE PRAYER HALL (SUTRA OF THE MUSALLA) (472-499)
 Volume 1, Book 9, Number 472:
 Narrated Ibn 'Abbas:
 Once I came riding a she-ass when I had just attained the age of puberty.
@@ -10297,7 +10296,7 @@ tied round their necks because of the shortness of the sheets and the
 women were ordered not to lift their heads till the men had sat straight.
 
 Volume 2, Book 22, Number 307:
-Narrated'Abdullah:
+Narrated 'Abdullah:
 I used to greet the Prophet while he was in prayer and he would return my
 greeting, but when we returned (from Ethiopia) I greeted the Prophet
 (while he was praying) but he did not return the greeting, and (after
@@ -10387,14 +10386,14 @@ performed two prostrations while sitting and then finished the prayer with
 Taslim.
 
 Volume 2, Book 22, Number 316:
-Narrated 'Abdullah bin Buhaina :
+Narrated 'Abdullah bin Buhaina:
 Allah's Apostle got up after the second Raka of the Zuhr prayer without
 sitting in between (the second and the third Rakat). When he finished the
 prayer he performed two prostrations (of Sahu) and then finished the
 prayer with Tasllm.
 
 Volume 2, Book 22, Number 317:
-Narrated' Abdullah:
+Narrated 'Abdullah:
 Once Allah's Apostle offered five Rakat in the Zuhr prayer, and somebody
 asked him whether there was some increase in the prayer. Allah's Apostle
 said, "What is that?" He said, "You have offered five Rakat." So Allah's
@@ -10605,7 +10604,19 @@ not know what Allah will do with me though I am Al lah's Apostle. ' By Allah,
 I never attested the piety of anyone after that."
 
 Volume 2, Book 23, Number 335:
-Narrated Al-Laith as above.
+Narrated Al-Laith:
+Um Al-'Ala', an Ansari woman who gave the pledge of allegiance to the
+Prophet said to me, "The emigrants were distributed amongst us by drawing
+lots and we got in our share 'Uthman bin Maz'un. We made him stay with us
+in our house. Then he suffered from a disease which proved fatal when he
+died and was given a bath and was shrouded in his clothes, Allah's Apostle
+came I said, 'May Allah be merciful to you, O Abu As-Sa'ib! I testify that Allah
+has honored you'. The Prophet said, 'How do you know that Allah has
+honored him?' I replied, 'O Allah's Apostle! Let my father be sacrificed for
+you! On whom else shall Allah bestow His honor?' The Prophet said, 'No
+doubt, death came to him. By Allah, I too wish him good, but by Allah, I do
+not know what Allah will do with me though I am Al lah's Apostle. ' By Allah,
+I never attested the piety of anyone after that."
 
 Volume 2, Book 23, Number 336:
 Narrated Jabir bin 'Abdullah :
@@ -12936,8 +12947,7 @@ a part of its juice in the child's mouth). I saw the Prophet and he had an
 instrument for branding in his hands and was branding the camels of Zakat.
 
 
-BOOK 25. OBLIGATORY CHARITY TAX AFTER RAMADAAN (ZAKAT UL
-FITR) (579-588)
+BOOK 25. OBLIGATORY CHARITY TAX AFTER RAMADAAN (ZAKAT UL FITR) (579-588)
 Volume 2, Book 25, Number 579:
 Narrated Ibn Umar:
 Allah's Apostle enjoined the payment of one Sa' of dates or one Sa' of barley
@@ -15395,8 +15405,7 @@ twilight disappeared, he dismounted and offered the Maghrib and 'Isha'
 prayers together. Then he said, "I saw that whenever the Prophet had to
 hasten when traveling, he would delay the Maghrib prayer and join them
 together (i.e. offer the Maghrib and the Isha prayers together)."
-BOOK 28. PILGRIMS PREVENTED FROM COMPLETING THE
-PILGRIMAGE (33-46)
+BOOK 28. PILGRIMS PREVENTED FROM COMPLETING THE PILGRIMAGE (33-46)
 Volume 3, Book 28, Number 33:
 Narrated Nafi:
 When Abdullah bin Umar set out for Mecca intending to perform Umra, at
@@ -15611,8 +15620,9 @@ Muhrim."
 Volume 3, Book 29, Number 52:
 Narrated 'Abdullah bin 'Umar:
 Allah's Apostle said, "It is not sinful of a Muhrim to kill five kinds of animals."
+
 Volume 3, Book 29, Number 53:
-One of the wives of the Prophet narrated:
+Narrated One of the wives of the Prophet:
 The Prophet said, "A Muhrim can kill (five kinds of animals.)"
 
 Volume 3, Book 29, Number 54:
@@ -15764,9 +15774,6 @@ the Ka'ba)." The Prophet said, "Kill him."
 Volume 3, Book 29, Number 73:
 Narrated Ya'li:
 ame as you do in your Hajj." A man bit the hand of another man but in
-
-Volume 3, Book 29, Number 74:
-Narrated Ibn 'Abbas:
 
 Volume 3, Book 29, Number 75:
 Narrated Ibn 'Abbas:
@@ -16985,7 +16992,7 @@ The Prophet ordered a man from the tribe of Bani Aslam to announce
 amongst the people that whoever had eaten should fast the rest of the day,
 and whoever had not eaten should continue his fast, as that day was the day
 of 'Ashura' .
-BOOK 32. PRAYING AT NIGHT IN RAMADAAN (TARAWEEH) (226241)
+BOOK 32. PRAYING AT NIGHT IN RAMADAAN (TARAWEEH) (226-241)
 Volume 3, Book 32, Number 226:
 Narrated Abu Huraira:
 I heard Allah's Apostle saying regarding Ramadan, "Whoever prayed at night
@@ -17133,8 +17140,7 @@ Narrated Aisha:
 With the start of the last ten days of Ramadan, the Prophet used to tighten
 his waist belt (i.e. work hard) and used to pray all the night, and used to
 keep his family awake for the prayers.
-BOOK 33. RETIRING TO A MOSQUE FOR REMEMBRANCE OF ALLAH
-(I'TIKAF) (242-262)
+BOOK 33. RETIRING TO A MOSQUE FOR REMEMBRANCE OF ALLAH (I'TIKAF) (242-262)
 Volume 3, Book 33, Number 242:
 Narrated Abdullah bin Umar:
 Allah's Apostle used to practise Itikaf in the last ten days of the month of
@@ -18773,8 +18779,7 @@ doing so. He replied, "Allah's Apostle prohibited taking money for blood, the
 price of a dog, and the earnings of a slave-girl by prostitution; he cursed her
 who tattoos and her who gets tattooed, the eater of Riba (usury), and the
 maker of pictures."
-BOOK 35. SALES IN WHICH A PRICE IS PAID FOR GOODS TO BE
-DELIVERED LATER (AS-SALAM) (441-460)
+BOOK 35. SALES IN WHICH A PRICE IS PAID FOR GOODS TO BE DELIVERED LATER (AS-SALAM) (441-460)
 Volume 3, Book 35, Number 441:
 Narrated Ibn Abbas:
 Allah's Apostle came to Medina and the people used to pay in advance the
@@ -19183,8 +19188,7 @@ farms." Narrated 'Ubaid-Ullah Nafi' said: Ibn 'Umar said: (The contract of
 Khaibar continued) till 'Umar evacuated the Jews (from Khaibar).
 
 
-BOOK 37. TRANSFERANCE OF A DEBT FROM ONE PERSON TO
-ANOTHER (AL-HAWAALA) (486-495)
+BOOK 37. TRANSFERANCE OF A DEBT FROM ONE PERSON TO ANOTHER (AL-HAWAALA) (486-495)
 Volume 3, Book 37, Number 486:
 Narrated Abu Huraira:
 The Prophet said, "Procrastination (delay) in paying debts by a wealthy man
@@ -19356,8 +19360,7 @@ made the Prophet wealthy through conquests, he said, "I am more rightful
 than other believers to be the guardian of the believers, so if a Muslim dies
 while in debt, I am responsible for the repayment of his debt, and whoever
 leaves wealth (after his death) it will belong to his heirs. "
-BOOK 38. REPRESENTATION, AUTHORIZATION, BUSINESS BY PROXY
-(496-512)
+BOOK 38. REPRESENTATION, AUTHORIZATION, BUSINESS BY PROXY (496-512)
 Volume 3, Book 38, Number 496:
 Narrated 'Ali: Allah's Apostle ordered me to distribute the saddles and skins
 of the Budn which had slaughtered.
@@ -20152,8 +20155,7 @@ Narrated Rafi 'bin Khadij and Sahl bin Al Hathma:
 Allah's Apostle forbade the sale of Muzabana, i.e. selling of fruits for fruits,
 except in the case of 'Araya; he allowed the owners of 'Araya such kind of
 sale.
-BOOK 41. LOANS, PAYMENT OF LOANS, FREEZING OF PROPERTY,
-BANKRUPTCY (570-607)
+BOOK 41. LOANS, PAYMENT OF LOANS, FREEZING OF PROPERTY, BANKRUPTCY (570-607)
 Volume 3, Book 41, Number 570:
 Narrated Jabir bin 'Abdullah:
 While I was in the company of the Prophet in one of his Ghazawat, he asked,
@@ -20511,7 +20513,7 @@ said, "Then wait till I die and come to life again, for then I will be given
 property and offspring and will pay your right." So, thus revelation came:
 "Have you seen him who disbelieved in Our signs and yet says, 'I will be
 given property and offspring?' " (19.77)
-BOOK 42. LOST THINGS PICKED UP BY SOMEONE (LUQAATA) (608619)
+BOOK 42. LOST THINGS PICKED UP BY SOMEONE (LUQAATA) (608-619)
 Volume 3, Book 42, Number 608:
 Narrated Ubai bin Ka'b:
 I found a purse containing one hundred Diners. So I went to the Prophet
@@ -25556,9 +25558,6 @@ them till it was dawn. If he heard the Adhan (i.e. call for prayer) he would
 delay the fight, and if he did not hear the Adhan, he would attack them
 immediately after dawn. We reached Khaibar at night.
 
-Volume 4, Book 52, Number 194:
-Narrated Anas: as Hadith No. 193 above.
-
 Volume 4, Book 52, Number 195:
 Narrated Anas:
 The Prophet set out for Khaibar and reached it at night. He used not to
@@ -26867,8 +26866,7 @@ Volume 4, Book 52, Number 323:
 Narrated Jabir:
 Once I returned from a journey and the Prophet said (to me) "Offer two
 Rakat." (Sirar is a place near Medina).
-BOOK 53. ONE-FIFTH OF BOOTY TO THE CAUSE OF ALLAH (KHUMUS)
-(324-412)
+BOOK 53. ONE-FIFTH OF BOOTY TO THE CAUSE OF ALLAH (KHUMUS) (324-412)
 Volume 4, Book 53, Number 324:
 Narrated Ali:
 I got a she-camel in my share of the war booty on the day (of the battle) of
@@ -29024,9 +29022,6 @@ Blessings for (their crowing indicates that) they have seen an angel. And
 when you hear the braying of donkeys, seek Refuge with Allah from Satan
 for (their braying indicates) that they have seen a Satan."
 
-Volume 4, Book 54, Number 523:
-Narrated Jabir bin Abdullah:
-
 Volume 4, Book 54, Number 524:
 Narrated Abu Huraira:
 The Prophet said, "A group of Israelites were lost. Nobody knows what they
@@ -30548,8 +30543,7 @@ Narrated Abu Huraira:
 Allah's Apostle said "How will you be when the son of Mary (i.e. Jesus)
 descends amongst you and he will judge people by the Law of the Quran
 and not by the law of Gospel (Fateh-ul Bari page 304 and 305 Vol 7)
-BOOK 56. VIRTUES AND MERITS OF THE PROPHET (PBUH) AND HIS
-COMPANIONS (659-841)
+BOOK 56. VIRTUES AND MERITS OF THE PROPHET (PBUH) AND HIS COMPANIONS (659-841)
 Volume 4, Book 56, Number 659:
 Narrated Rabi bin Hirash:
 'Uqba bin 'Amr said to Hudhaifa, "Won't you relate to us of what you have
@@ -33466,9 +33460,6 @@ he would have loved him." Then Ibn 'Umar mentioned the love of the
 Prophet for the children of Um Aimn. Sulaiman said that Um Aiman was one
 of the nurses of the Prophet.
 
-Volume 5, Book 57, Number 82:
-The merits of 'Abdullah bin Umar bin Al-Khattab.
-
 Volume 5, Book 57, Number 83:
 Narrated Ibn 'Umar:
 If a man saw a dream during the lifetime of the Prophet he would narrate it
@@ -33742,7 +33733,7 @@ him the same for the third time, the Prophet said, "O Um Salama! Don't
 trouble me by harming 'Aisha, for by Allah, the Divine Inspiration never came
 to me while I was under the blanket of any woman amongst you except
 her."
-BOOK 58. MERITS OF THE HELPERS IN MADINAH (ANSAAR) (120284)
+BOOK 58. MERITS OF THE HELPERS IN MADINAH (ANSAAR) (120-284)
 Volume 5, Book 58, Number 120:
 Narrated Ghailan bin Jarir:
 I asked Anas, "Tell me about the name 'Al-Ansar.; Did you call yourselves by
@@ -34131,8 +34122,8 @@ The Prophet said, "The best of the world's women is Mary (at her lifetime),
 and the best of the world's women is Khadija (at her lifetime)."
 
 Volume 5, Book 58, Number 164:
-Narrated
-'Aisha: I did not feel jealous of any of the wives of the Prophet as much as I
+Narrated 'Aisha: 
+I did not feel jealous of any of the wives of the Prophet as much as I
 did of Khadija (although) she died before he married me, for I often heard
 him mentioning her, and Allah had told him to give her the good tidings that
 she would have a palace of Qasab (i.e. pipes of precious stones and pearls in
@@ -41437,8 +41428,7 @@ Volume 5, Book 59, Number 749:
 Narrated Buraida:
 That he fought sixteen Ghazawat with Allah's Apostle.
 VOLUME 6
-BOOK 60. PROPHETIC COMMENTARY ON THE QUR'AN (TAFSEER OF
-THE PROPHET (PBUH)) (1-501)
+BOOK 60. PROPHETIC COMMENTARY ON THE QUR'AN (TAFSEER OF THE PROPHET (PBUH)) (1-501)
 Volume 6, Book 60, Number 1:
 Narrated Abu Said bin Al-Mu'alla:
 While I was praying in the Mosque, Allah's Apostle called me but I did not
@@ -43471,9 +43461,6 @@ does not want me to be one of his friends. So I said, "I never expected that
 he would refuse my offer to support him, and I don't think he intends to do
 me any good, therefore, if my cousins should inevitably be my rulers, it will
 be better for me to be ruled by them than by some others."
-
-Volume 6, Book 60, Number 189:
-Narrated Abu Said:
 
 Volume 6, Book 60, Number 190:
 Narrated Abu Musud:
@@ -46016,9 +46003,6 @@ he showed them (the miracle) of the cleaving of the moon.
 Volume 6, Book 60, Number 391:
 Narrated Anas:
 The moon was cleft asunder into two parts.
-
-Volume 6, Book 60, Number 392:
-Narrated Abdullah bin Masud:
 
 Volume 6, Book 60, Number 393:
 Narrated Abdullah:
@@ -50720,9 +50704,6 @@ wealthy than leave them poor, begging of others. Whatever you spend will
 be considered a Sadaqa for you, even the mouthful of food you put in the
 mouth of your wife. Anyhow Allah may let you recover, so that some people
 may benefit by you and others be harmed by you."
-
-Volume 7, Book 64, Number 267:
-Narrated Al-'Amash:
 
 Volume 7, Book 64, Number 268:
 Narrated Abu Huraira:
@@ -60246,9 +60227,6 @@ life and property, and also a man who lives (all alone) in a mountain path
 among the mountain paths to worship his Lord and save the people from his
 evil."
 
-Volume 8, Book 76, Number 502:
-Narrated Abu Said:
-
 Volume 8, Book 76, Number 503:
 Narrated Abu Huraira:
 Allah's Apostle said, "When honesty is lost, then wait for the Hour." It was
@@ -61618,8 +61596,6 @@ group of camel-riders, and he was swearing by his father. The Prophet said,
 "Lo! Allah forbids you to swear by your fathers, so whoever has to take an
 oath, he should swear by Allah or keep quiet."
 
-Volume 8, Book 78, Number 642:
-Narrated Ibn 'Umar:
 Volume 8, Book 78, Number 643:
 Narrated 'Abdullah bin 'Umar:
 Allah's Apostle said, "Do not swear by your fathers."
@@ -62726,7 +62702,7 @@ said, "O 'Aisha: Don't you know that Mujazziz Al-Mudliji entered and saw
 Usama and Zaid with a velvet covering on them and their heads were
 covered while their feet were uncovered. He said, 'These feet belong to
 each other.'
-BOOK 81. LIMITS AND PUNISHMENTS SET BY ALLAH (HUDOOD) (763793)
+BOOK 81. LIMITS AND PUNISHMENTS SET BY ALLAH (HUDOOD) (763-793)
 Volume 8, Book 81, Number 763:
 Narrated Abu Huraira:
 Allah's Apostle said, "When an adulterer commits illegal sexual intercourse,
@@ -62750,7 +62726,7 @@ house, to beat him. So all of them beat him, and I was also one of them who
 beat him with shoes.
 
 Volume 8, Book 81, Number 766:
-Narrated' Uqba bin Al-Harith:
+Narrated 'Uqba bin Al-Harith:
 An-Nu'man or the son of An-Nu'man was brought to the Prophet in a state
 of intoxication. The Prophet felt it hard (was angry) and ordered all those
 who were present in the house, to beat him. And they beat him, using palmleaf stalks and shoes, and I was among those who beat him.
@@ -62953,8 +62929,7 @@ punish or forgive him according to His wish." Abu Abdullah said: "If a thief
 repents after his hand has been cut off, the his witness well be accepted.
 Similarly, if any person upon whom any legal punishment has been inflicted,
 repents, his witness will be accepted."
-BOOK 82. PUNISHMENT OF DISBELIEVERS AT WAR WITH ALLAH AND
-HIS APOSTLE (794-842)
+BOOK 82. PUNISHMENT OF DISBELIEVERS AT WAR WITH ALLAH AND HIS APOSTLE (794-842)
 Volume 8, Book 82, Number 794:
 Narrated Anas:
 Some people from the tribe of 'Ukl came to the Prophet and embraced
@@ -64315,7 +64290,7 @@ will meet Allah with that saying on the Day of Resurrection, but Allah will
 save him from the Fire."
 
 Volume 9, Book 84, Number 72:
-Narrated:
+Narrated :
 Abu 'Abdur-Rahman and Hibban bin 'Atiyya had a dispute. Abu 'AbdurRahman said to Hibban, "You know what made your companions (i.e. Ali)
 dare to shed blood." Hibban said, "Come on! What is that?" 'Abdur-Rahman
 said, "Something I heard him saying." The other said, "What was it?"
@@ -64351,7 +64326,7 @@ what you like, for I have granted you Paradise?' " On that, 'Umar's eyes
 became flooded with tears and he said, "Allah and His Apostle know best."
 
 
-BOOK 85. SAYING SOMETHING UNDER COMPULSION (IKRAAH) (7384)
+BOOK 85. SAYING SOMETHING UNDER COMPULSION (IKRAAH) (73-84)
 Volume 9, Book 85, Number 73:
 Narrated Abi Huraira:
 The Prophet used to invoke Allah in his prayer, "O Allah! Save 'Aiyash bin Abi
@@ -65590,7 +65565,7 @@ meant his wives, so that they might pray. He added, "A well-dressed (soul) in
 this world may be naked in the Hereafter."
 
 Volume 9, Book 88, Number 190:
-Narrated:
+Narrated :
 The statement of the Prophet: Whoever takes up arms against us, is not
 from us."
 
@@ -67165,8 +67140,7 @@ Narrated 'Abdullah bin Zaid:
 The Prophet said, "But for the emigration, I would have been one of the
 Ansar; and if the people took their way in a valley (or a mountain pass), I
 would take Ansar's valley or their mountain pass."
-BOOK 91. ACCEPTING INFORMATION GIVEN BY A TRUTHFUL PERSON
-(352-372)
+BOOK 91. ACCEPTING INFORMATION GIVEN BY A TRUTHFUL PERSON (352-372)
 Volume 9, Book 91, Number 352:
 Narrated Malik:
 We came to the Prophet and we were young men nearly of equal ages and
