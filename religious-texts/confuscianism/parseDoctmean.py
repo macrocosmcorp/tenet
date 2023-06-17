@@ -1,4 +1,5 @@
 
+import csv
 import os
 
 import pandas as pd
@@ -43,13 +44,13 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Put the file in 'religious-texts/christianity' relative to the script directory
 file_path = os.path.join(
-    script_directory, 'CLEAN_learning_confucius.txt')
+    script_directory, 'CLEAN_doctmean_confucius.txt')
 
 # Set the output directory to the script directory
 output_directory = script_directory
 
 religion_name = 'confucianism'
-book_name = 'great_learning'
+book_name = 'doctrine_of_the_mean'
 # Set this to {religion_name}_{book_name}
 id_flag = religion_name + '_' + book_name
 
@@ -60,13 +61,15 @@ chunks = split_by_chunk(paragraphs, 6, 2)
 verses_csv_path = os.path.join(output_directory, f'{id_flag}_verses.csv')
 chunks_csv_path = os.path.join(output_directory, f'{id_flag}_chunks.csv')
 
+# use csv.writer
 with open(verses_csv_path, 'w') as f:
-    f.write('Paragraph,Text\n')
-    for i, paragraph in enumerate(paragraphs):
-        f.write(f'{i+1},"{paragraph}"\n')
+    writer = csv.writer(f)
+    writer.writerow(['paragraph', 'text'])
+    for i in range(len(paragraphs)):
+        writer.writerow([ i+1, paragraphs[i]])
 
 with open(chunks_csv_path, 'w') as f:
-    f.write('ParagraphRange,Text\n')
-    for i, chunk in enumerate(chunks):
-        f.write(f'{i*2+1}-{i*2+6},"' + ' '.join(chunk) + '"\n')
-
+    writer = csv.writer(f)
+    writer.writerow(['chunk', 'text'])
+    for i in range(len(chunks)):
+        writer.writerow([ i+1, ' '.join(chunks[i])])
