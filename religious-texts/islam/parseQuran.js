@@ -13,7 +13,7 @@ function parseVerses() {
   const csv = []
   let currSura = null
   let currSuraName = null
-  let currSection = 'Section 1.'
+  let currSection = 'SECTION 1.'
   let currPage = '[p. 15]'
   let currParagraph = null
   let paragraphArr = []
@@ -43,7 +43,7 @@ function parseVerses() {
     if(isSura) {
       currSura = line
       currSuraName = null
-      currSection = 'Section 1.'
+      currSection = 'SECTION 1.'
       lookingForSuraName = true
       continue
     }
@@ -77,7 +77,7 @@ const parseParagraphChunks = () => {
   const csv = []
   let currSura = null
   let currSuraName = null
-  let currSection = 'Section 1.'
+  let currSection = 'SECTION 1.'
   let currPage = '[p. 15]'
   let paragraphNumArr = []
   let paragraphsArr = []
@@ -124,7 +124,7 @@ const parseParagraphChunks = () => {
     } else if(isSura) {
       currSura = line
       currSuraName = null
-      currSection = 'SECTION 1. (implied)'
+      currSection = 'SECTION 1.'
       lookingForSuraName = true
       continue
     } else if(isSection) {
