@@ -18,8 +18,9 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 total_cost = 0
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def get_embedding(text: str, model="text-embedding-ada-002") -> list[float]:
-    return openai.Embedding.create(input=[text], model=model)["data"][0]["embedding"]
+def get_embedding(text: str, id: int, model="text-embedding-ada-002") -> tuple[int, list[float]]:
+    result = openai.Embedding.create(input=[text], model=model)
+    return (id, result["data"][0]["embedding"])
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def get_summary(text: str) -> str:
@@ -84,10 +85,14 @@ def embed_file(csv_file_name, csv_file_path, csv_directory):
     embeddings = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_to_embedding = {executor.submit(
-            get_embedding, verse['Text']): verse for verse in result}
+            get_embedding, verse['Text'], id): verse for id, verse in enumerate(result)}
         for future in concurrent.futures.as_completed(future_to_embedding):
             embeddings.append(future.result())
             print(len(embeddings), end='\r')
+
+    # Sort the embeddings by ID
+    embeddings.sort(key=lambda x: x[0])
+    embeddings = [x[1] for x in embeddings]
 
     df['Embedding'] = embeddings
 
@@ -144,8 +149,8 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
     print(df.head())
     
 if __name__ == "__main__":
-    file_directory = 'religious-texts/christianity'
-    file_name = 'christianity_deut_verses.csv'
+    file_directory = 'embeddings/hadith_embeddings'
+    file_name = 'hadith.csv'
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_directory, file_name)
