@@ -23,15 +23,15 @@ def get_embedding(text: str, id: int, model="text-embedding-ada-002") -> tuple[i
     return (id, result["data"][0]["embedding"])
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def get_summary(text: str) -> str:
-    return openai.ChatCompletion.create(
+def get_summary(text: str, id: int) -> tuple[int, str]:
+    result = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[{"role": "system", "content": "You are a Bible expert. You are great at writing children's books and stories and explaining complex information well and in a careful manner. Below is a certain chapter from the Bible. Rewrite the text and make it simpler it in a way that a child would understand, without losing information or changing the meaning of the text. Try as much as you can to keep the structure and length of each chapter. Don't start each summary with any unique phrase as each summary will be connected to each other (for example, 'Once upon a time' or 'Genesis Chapter 1:'). Return only the inline simplified text."}, {"role": "user", "content": text}],
     )["choices"][0]["message"]['content']
     # total_cost += 0.0000015 * result['usage']['prompt_tokens']
     # total_cost += 0.000002 * result['usage']['completion_tokens']
     
-    # return result["choices"][0]["message"]['content']
+    return (id, result["choices"][0]["message"]['content'])
 
 
 def load_atlas(project_name, df, colorable_fields, reset_project_if_exists=False):
@@ -122,10 +122,14 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         future_to_embedding = {executor.submit(
-            get_summary, verse["Book"] + ' Chapter ' + verse['Chapter'] + ': ' + verse['Text']): verse for verse in result}
+            get_summary, verse["Book"] + ' Chapter ' + verse['Chapter'] + ': ' + verse['Text'], id): verse for id, verse in enumerate(result)}
         for future in concurrent.futures.as_completed(future_to_embedding):
             results.append(future.result())
             print(len(results), end='\r')
+
+    # Sort the results by ID
+    results.sort(key=lambda x: x[0])
+    results = [x[1] for x in results]
 
     # Save results to dataframe
     df['Summary'] = results
