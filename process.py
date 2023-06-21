@@ -153,8 +153,8 @@ def summarize_file(csv_file_name, csv_file_path, csv_directory):
     print(df.head())
     
 if __name__ == "__main__":
-    file_directory = 'embeddings/hadith_embeddings'
-    file_name = 'hadith.csv'
+    file_directory = 'religious-texts/christianity'
+    file_name = 'christianity_kjv_small_chunks.csv'
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_directory, file_name)
